@@ -10,6 +10,9 @@ setup(name = 'subtitle-fetcher',
       entry_points = {
           'console_scripts': ['subtitle-fetcher=subtitle_fetcher:main'],
       },
+      install_requires=[
+        "requests"
+      ],
       url = 'https://github.com/ajayrfhp/subtitle-fetcher/',
       keywords = ['subtitle', 'download', 'utility', 'movie'],
       classifiers = [
